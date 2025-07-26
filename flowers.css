@@ -21,6 +21,9 @@
 .light-yellow{
     color: #E95A08;
 }
+.black{
+    color: #000000;
+}
 /* header styles */
 .navber{
     max-width: 1140px;
@@ -48,6 +51,23 @@
     font-size: 4.1rem;
     font-weight: 700;
 }
-.black{
-    color: #000000;
+
+.banner-description{
+    color: rgba(0, 0, 0, 0.50);
+}
+.plants-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.plants-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+
+
+}
+.plants-descripton{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.50);
+
 }
