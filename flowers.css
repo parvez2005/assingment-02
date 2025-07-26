@@ -125,3 +125,14 @@ color: #111111;
 .badge-image{
     
 }
+.latest-section{
+    text-align: center;
+}
+.latest-description{
+    color: rgba(0, 0, 0, 0.50);
+}
+.latest-title{
+    color: rgba(0, 0, 0, 1.00);
+    font-size: 4.1rem;
+    font-weight: bold;
+}
