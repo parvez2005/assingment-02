@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+/* shered styles */
+
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* color  */
+.light-yellow{
+    color: #E95A08;
+}
+/* header styles */
+.navber{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+   
+}
+.navber-container{
+    align-items: center;
+}
+.bg-color{
+    color: rgb(245, 248, 255);
+}
+.link-item{
+    color: rgb(137, 135, 161);
+}
+.link-item-home{
+    color: rgb(37, 36, 50);
+    font-weight: 700;
+}
+.banner{
+    margin-top: 120px;
+}
+.banner-title{
+    font-size: 4.1rem;
+    font-weight: 700;
+}
+.black{
+    color: #000000;
+}
