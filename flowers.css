@@ -123,6 +123,11 @@ color: #111111;
     
 }
 .badge-image{
+    position:absolute;
+    width: 286px;
+    height: 286px;
+    left: 218px;
+    top: 1771px;
     
 }
 .latest-section{
@@ -136,20 +141,14 @@ color: #111111;
     font-size: 4.1rem;
     font-weight: bold;
 }
-/* challange part */
-/* .challange-container{
-    background-image: ;
-    background-repeat: no-repeat;
 
-} */
+
+
 .challange-container{
     background-image: url(./assets/deal-ana.png), url(./assets/deal-bloom.png), url(./assets/deal-zabo.png);
     background-repeat: no-repeat , no-repeat, no-repeat;
 }
-/* .challange-container{
-    background-image: ;
-    background-repeat: no-repeat;
-} */
+
 
  /* join section */
 .btn-secondery{
@@ -161,8 +160,7 @@ color: #111111;
     background-image: url(./assets/news-letter-bg.png);
     background-repeat: no-repeat;
     height: 533px;
-    /* display: flex;
-    justify-content: center; */
+    
     align-items: center;
 }
 .join-section-title{
@@ -173,7 +171,7 @@ color: #111111;
 .join-section-email{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    
     padding-top: 290px;
 
 }
