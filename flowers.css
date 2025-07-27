@@ -136,3 +136,50 @@ color: #111111;
     font-size: 4.1rem;
     font-weight: bold;
 }
+/* challange part */
+/* .challange-container{
+    background-image: ;
+    background-repeat: no-repeat;
+
+} */
+.challange-container{
+    background-image: url(./assets/deal-ana.png), url(./assets/deal-bloom.png), url(./assets/deal-zabo.png);
+    background-repeat: no-repeat , no-repeat, no-repeat;
+}
+/* .challange-container{
+    background-image: ;
+    background-repeat: no-repeat;
+} */
+
+ /* join section */
+.btn-secondery{
+    background-color: #E95A08;
+    color: white;
+    padding: 20px 54px;
+}
+.join-section{
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    height: 533px;
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+}
+.join-section-title{
+   display: flex;
+   justify-content: center;
+ 
+}
+.join-section-email{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 290px;
+
+}
+.inp-primary{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.50);
+    width: 650px;
+    border: none;
+}
