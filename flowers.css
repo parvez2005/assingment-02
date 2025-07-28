@@ -22,6 +22,7 @@
     color: white;
     background-color: #E95A08;
     padding: 19px 80px;
+   
 }
 /* color  */
 .light-yellow{
@@ -141,13 +142,85 @@ color: #111111;
     font-size: 4.1rem;
     font-weight: bold;
 }
-
-
-
-.challange-container{
-    background-image: url(./assets/deal-ana.png), url(./assets/deal-bloom.png), url(./assets/deal-zabo.png);
-    background-repeat: no-repeat , no-repeat, no-repeat;
+/* .challange-container{
+      display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
 }
+.left-top{
+    background-image: url("assets/deal-bloom.png");
+    background-repeat: no-repeat;
+}
+.left-bottom{
+    background-image: url("assets/deal-ana.png");
+    background-repeat: no-repeat;
+}
+.right{
+    background-image: url("assets/deal-zabo.png");
+    background-repeat: no-repeat;
+    grid-row: span 2;
+} */
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  /* position: relative; */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 200px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-top {
+  background-image: url('assets/deal-bloom.png'); /* Bloom */
+}
+
+.left-bottom {
+  background-image: url('assets/deal-ana.png'); /* Ana */
+  
+}
+
+.right {
+  background-image: url('assets/deal-zabo.png'); /* Zabo */
+}
+
+.content {
+ 
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.content h3,
+.content h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.content a {
+  display: inline-block;
+  margin-top: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 5px 10px;
+  
+}
+
 
 
  /* join section */
@@ -160,24 +233,45 @@ color: #111111;
     background-image: url(./assets/news-letter-bg.png);
     background-repeat: no-repeat;
     height: 533px;
-    
     align-items: center;
+    margin-top: 120px;
+    padding-top: 190px;
 }
 .join-section-title{
    display: flex;
    justify-content: center;
+   margin-bottom: 10px;
+   font-weight: bold;
+   font-size: 3rem;
+   color: white;
+   
  
 }
 .join-section-email{
     display: flex;
     justify-content: center;
     
-    padding-top: 290px;
+    /* padding-top: 290px; */
 
 }
 .inp-primary{
     background-color: white;
     color: rgba(0, 0, 0, 0.50);
     width: 650px;
-    border: none;
+    
+}
+/* footer-content */
+.footer-content{
+    display: flex;
+    gap: 110px;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin: 50px;
+}
+.li{
+    
+}
+.footer-icon{
+    display: flex;
+    width: 200px;
 }
